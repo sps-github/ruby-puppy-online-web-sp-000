@@ -12,8 +12,8 @@ def save
   @@all << self
 end
 
-def clear_all
-  @@all.clear
+def self.clear_all
+  @@all = []
 end
 
 end
